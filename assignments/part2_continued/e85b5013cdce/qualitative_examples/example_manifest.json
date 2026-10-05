@@ -1,0 +1,241 @@
+{
+  "selection_seed": 3042,
+  "num_futures": 20,
+  "run_id": "e85b5013cdce",
+  "examples": [
+    {
+      "label": "random",
+      "selection_reason": "Fixed-seed random scene",
+      "test_index": 1636,
+      "raw_scene_id": 92815,
+      "draw_seed": 4678,
+      "observed_description": {
+        "num_pedestrians": 49,
+        "median_speed": 1.2549266815185547,
+        "turning_score": 3.089078903198242,
+        "nearest_distance": 0.44743192195892334
+      },
+      "display_ids": [
+        14,
+        11,
+        10,
+        48,
+        26,
+        28,
+        7,
+        25
+      ],
+      "focus_pedestrian": 14,
+      "metrics": {
+        "Gaussian": {
+          "ADE": 1.0618560314178467,
+          "FDE": 1.8366594314575195,
+          "min20ADE": 0.8983502388000488,
+          "min20FDE": 1.4731266498565674,
+          "endpoint_RMS_spread": 1.626125693321228
+        },
+        "Informed": {
+          "ADE": 1.0397838354110718,
+          "FDE": 1.7990814447402954,
+          "min20ADE": 0.8987929821014404,
+          "min20FDE": 1.4878727197647095,
+          "endpoint_RMS_spread": 1.5232304334640503
+        }
+      }
+    },
+    {
+      "label": "slow",
+      "selection_reason": "Lowest median observed speed",
+      "test_index": 139,
+      "raw_scene_id": 13863,
+      "draw_seed": 3181,
+      "observed_description": {
+        "num_pedestrians": 5,
+        "median_speed": 0.0381944440305233,
+        "turning_score": 1.0123769044876099,
+        "nearest_distance": 6.089441776275635
+      },
+      "display_ids": [
+        0,
+        2,
+        4,
+        3,
+        1
+      ],
+      "focus_pedestrian": 0,
+      "metrics": {
+        "Gaussian": {
+          "ADE": 0.5569542646408081,
+          "FDE": 1.1375977993011475,
+          "min20ADE": 0.19833576679229736,
+          "min20FDE": 0.15761959552764893,
+          "endpoint_RMS_spread": 1.291036605834961
+        },
+        "Informed": {
+          "ADE": 0.5599653720855713,
+          "FDE": 1.1622248888015747,
+          "min20ADE": 0.24460501968860626,
+          "min20FDE": 0.28712061047554016,
+          "endpoint_RMS_spread": 1.3505499362945557
+        }
+      }
+    },
+    {
+      "label": "fast",
+      "selection_reason": "Highest median observed speed",
+      "test_index": 767,
+      "raw_scene_id": 0,
+      "draw_seed": 3809,
+      "observed_description": {
+        "num_pedestrians": 5,
+        "median_speed": 1.6399352550506592,
+        "turning_score": 1.1498466730117798,
+        "nearest_distance": 1.8308402299880981
+      },
+      "display_ids": [
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "focus_pedestrian": 3,
+      "metrics": {
+        "Gaussian": {
+          "ADE": 5.361752033233643,
+          "FDE": 11.40511703491211,
+          "min20ADE": 3.7295703887939453,
+          "min20FDE": 7.890847682952881,
+          "endpoint_RMS_spread": 4.6679229736328125
+        },
+        "Informed": {
+          "ADE": 5.878262519836426,
+          "FDE": 12.09312915802002,
+          "min20ADE": 4.404753684997559,
+          "min20FDE": 8.643377304077148,
+          "endpoint_RMS_spread": 4.3582539558410645
+        }
+      }
+    },
+    {
+      "label": "turning",
+      "selection_reason": "Largest observed path / displacement for a moving pedestrian",
+      "test_index": 159,
+      "raw_scene_id": 57725,
+      "draw_seed": 3201,
+      "observed_description": {
+        "num_pedestrians": 16,
+        "median_speed": 0.6288964748382568,
+        "turning_score": 158.8820037841797,
+        "nearest_distance": 0.9949288368225098
+      },
+      "display_ids": [
+        0,
+        12,
+        8,
+        7,
+        4,
+        2,
+        1,
+        6
+      ],
+      "focus_pedestrian": 0,
+      "metrics": {
+        "Gaussian": {
+          "ADE": 1.6327146291732788,
+          "FDE": 2.9670586585998535,
+          "min20ADE": 1.3560718297958374,
+          "min20FDE": 2.0522079467773438,
+          "endpoint_RMS_spread": 2.7530477046966553
+        },
+        "Informed": {
+          "ADE": 1.6810176372528076,
+          "FDE": 3.0293033123016357,
+          "min20ADE": 1.341362714767456,
+          "min20FDE": 2.239185333251953,
+          "endpoint_RMS_spread": 2.7512810230255127
+        }
+      }
+    },
+    {
+      "label": "close",
+      "selection_reason": "Smallest observed closest-neighbour distance",
+      "test_index": 549,
+      "raw_scene_id": 58039,
+      "draw_seed": 3591,
+      "observed_description": {
+        "num_pedestrians": 36,
+        "median_speed": 1.1001763343811035,
+        "turning_score": 5.199597358703613,
+        "nearest_distance": 0.03125
+      },
+      "display_ids": [
+        1,
+        9,
+        16,
+        31,
+        28,
+        13,
+        17,
+        3
+      ],
+      "focus_pedestrian": 1,
+      "metrics": {
+        "Gaussian": {
+          "ADE": 1.385802149772644,
+          "FDE": 2.9637064933776855,
+          "min20ADE": 1.197633147239685,
+          "min20FDE": 2.454197883605957,
+          "endpoint_RMS_spread": 2.1692299842834473
+        },
+        "Informed": {
+          "ADE": 1.3862826824188232,
+          "FDE": 2.946735382080078,
+          "min20ADE": 1.2044782638549805,
+          "min20FDE": 2.4413254261016846,
+          "endpoint_RMS_spread": 2.161435842514038
+        }
+      }
+    },
+    {
+      "label": "crowded",
+      "selection_reason": "Largest observed pedestrian count",
+      "test_index": 289,
+      "raw_scene_id": 35480,
+      "draw_seed": 3331,
+      "observed_description": {
+        "num_pedestrians": 100,
+        "median_speed": 1.2202228307724,
+        "turning_score": 1.2982699871063232,
+        "nearest_distance": 0.5346856117248535
+      },
+      "display_ids": [
+        26,
+        28,
+        23,
+        27,
+        29,
+        63,
+        8,
+        75
+      ],
+      "focus_pedestrian": 26,
+      "metrics": {
+        "Gaussian": {
+          "ADE": 0.9929330945014954,
+          "FDE": 1.9140220880508423,
+          "min20ADE": 0.8664361238479614,
+          "min20FDE": 1.6930865049362183,
+          "endpoint_RMS_spread": 1.4944579601287842
+        },
+        "Informed": {
+          "ADE": 1.0045692920684814,
+          "FDE": 1.9412950277328491,
+          "min20ADE": 0.8697984218597412,
+          "min20FDE": 1.7054698467254639,
+          "endpoint_RMS_spread": 1.5118893384933472
+        }
+      }
+    }
+  ]
+}

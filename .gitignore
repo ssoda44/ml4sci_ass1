@@ -1,1 +1,4 @@
 *.mat
+
+# Downloaded pedestrian data; the notebook downloads it when needed.
+/assignments/eindhoven_centraal.pkl
