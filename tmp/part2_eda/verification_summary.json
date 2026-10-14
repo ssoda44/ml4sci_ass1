@@ -1,0 +1,18 @@
+{
+  "eda_code_cells_added": 1,
+  "heading_cells_added": 1,
+  "insertion_before_model_architecture": true,
+  "original_cells_and_outputs_preserved": true,
+  "plotted_sources": [
+    "ground_truth"
+  ],
+  "histogram_panels": 4,
+  "cached_scenes": 2000,
+  "frame_range": [
+    10,
+    29
+  ],
+  "embedded_plot_outputs": 1,
+  "image_path": "C:\\Users\\19670\\Desktop\\ml4sci_ass1\\assignments\\part2_continued\\e85b5013cdce\\ground_truth_eda.png",
+  "model_predictions_recomputed": false
+}
